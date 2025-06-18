@@ -19,21 +19,21 @@ Historical insurance claim data from Feb 2014 to Aug 2015
 1. Clone repository
 2. Install requirements: `pip install -r requirements.txt`
 
-## Final work
+## Final work(Task 3 and Task 4)
 ## Overview
 Predictive modeling and risk analysis for auto insurance premiums using:
 - **Data Version Control (DVC)**
 - **Machine Learning (XGBoost)**
 - **SHAP explainability**
 - **Flask API**
-  ## 🛠️ Setup
+  ## Setup
 ```bash
 git clone https://github.com/your-username/Insurance-risk-analytics.git
 cd Insurance-risk-analytics
 pip install -r requirements.txt
 ```
 
-## 📂 Repository Structure
+## Repository Structure
 ```
 .
 ├── data/               # Raw and processed data (DVC-tracked)
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 └── requirements.txt    # Python dependencies
 ```
 
-## 🔍 Key Findings
+## Key Findings
 1. **Top Risk Factors**:
    - Smoker status (4.7× higher costs)
    - BMI (especially for smokers)
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 3. **Regional Variations**:
    - Southeast has 18% higher claims
 
-## 🚀 How to Use
+## How to Use
 ### Run the API
 ```bash
 cd api
@@ -73,11 +73,11 @@ curl -X POST http://127.0.0.1:5000/predict \
 -d '{"age":35, "bmi":28, "smoker":"no", "children":2}'
 ```
 
-## 📊 Results
+## Results
 ![Regional Analysis](reports/regional_costs.png)
 *Figure: Insurance costs by region*
 
-## 📜 License
+## License
 MIT
 ## DVC Tracking 
 bash
